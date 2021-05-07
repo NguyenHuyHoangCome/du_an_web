@@ -32,7 +32,7 @@
     display: block;
     transition: 0.4s;
     margin: 0 10px;
-   
+    
     
 }
 .menutren ul li a::before{
@@ -43,7 +43,7 @@
     width: 0%;
     height: 2px;
     background-color:red;
-    transition: 0.4s;
+    transition: 0.2s;
 }
 .menutren ul li a:hover:before{
     width: 100%;
@@ -80,8 +80,7 @@
     width: 250px;
     background: black;
     position: absolute;
-    top:52px;
-    transition: 0.3s;
+    transition: 0.2s;
     text-align: left;
     visibility: hidden; 
     opacity: 0;
@@ -95,3 +94,37 @@
 ._1item .layer2 ul {
     list-style: none;
 }
+._1item .layer2 a {
+    
+    width: 250px;
+    background-color: black;
+}
+._1item .layer2 a.iconcona::after {
+    content: '\f054';
+    font: normal normal normal 10px/1 FontAwesome;
+    position: relative;
+    font-size: 10px;
+    bottom: 3px;
+    
+    color: white;
+    transition: 0.4s;
+    
+}
+.layercon {
+    width: 250px;
+    background: black;
+    position: absolute;
+    margin-top: -52px;
+    left: 250px;
+    transition: 0.2s;
+    text-align: left;
+    visibility: hidden; 
+    opacity: 0;
+}
+._1item .layer2 li:hover .layercon {
+
+    visibility: visible; 
+    opacity: 1;
+}
+.layercon li{}
+.layercon li a{}
