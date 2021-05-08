@@ -107,14 +107,15 @@
 .giua .dichvu{
     height: 320px;
     width: 100%;
-    background-color: cornflowerblue;
+    background-image: linear-gradient(to top right ,#446cca,rgb(123, 49, 243),#6757b9,rgb(128, 51, 230),#5462c7,#446cca,rgb(123, 49, 243),#6757b9,rgb(128, 51, 230),#5462c7,#446cca,rgb(123, 49, 243),#6757b9);
+ 
+    
 
 }
 .giua .dichvu .dichvucon{
     height: 320px;
     width: 70%;
     margin: auto;
-    background-color: pink;
     padding-top: 50px;
 }
 .giua .dichvu .dichvucon .tieude{
@@ -124,11 +125,134 @@
 .giua .dichvu .dichvucon .tieude .h5{
     font-size: 20px;
     display:block;
+    color: #ffffff;
     
+    
+}
+.giua .dichvu .dichvucon .tieude .h6{
+    font-size: 15px;
+    display:block;
+    color: #aca7a7;
+    
+    
+}
+.giua .dichvu .dichvucon .tieude .h5::after{
+
+
     
 }
 
+
 .giua .dichvu .dichvucon .thantieude{
     display: flex;
+    height: 169px;
+    
 }
+.giua .dichvu .dichvucon .thantieude .than1{
+    width: 25%;
+    display: flex;
+}
+.giua .dichvu .dichvucon .thantieude .than1 .img img{
+    width: 60px;
+    height:60px;
+    display: block;
+}
+.giua .dichvu .dichvucon .thantieude .than1 .tex h5{
+    color: #ffffff;
+    display: block;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+
+
+.giua .dichvu .dichvucon .thantieude .than2{
+    width: 25%;
+    display: flex;
+}
+.giua .dichvu .dichvucon .thantieude .than2 .img img{
+    width: 60px;
+    height:60px;
+    display: block;
+}
+.giua .dichvu .dichvucon .thantieude .than2 .tex h5{
+    color: #ffffff;
+    display: block;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+
+
+
+
+.giua .dichvu .dichvucon .thantieude .than3{
+    width: 25%;
+    display: flex;
+}
+.giua .dichvu .dichvucon .thantieude .than3 .img img{
+    width: 60px;
+    height:60px;
+    display: block;
+}
+.giua .dichvu .dichvucon .thantieude .than3 .tex h5{
+    color: #ffffff;
+    display: block;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+
+
+
+
+.giua .dichvu .dichvucon .thantieude .than4{
+    width: 25%;
+    display: flex;
+}
+.giua .dichvu .dichvucon .thantieude .than4 .img img{
+    width: 60px;
+    height:60px;
+    display: block;
+}
+.giua .dichvu .dichvucon .thantieude .than4 .tex h5{
+    color: #ffffff;
+    display: block;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+.giua .tintuc{
+    height: 450px;
+}
+.giua .tintuc .tieude{
+    width: 200px;
+    height:30px;
+    margin-left: 280px;
+    margin-top: 20px;
+}
+
+.giua .tintuc .tieude h5{
+    font-size: 20px;
+    display:block;
+    
+}
+.giua .tintuc .thongtin{
+    display: flex;
+    width: 1280px;
+    height: 400px;
+    margin: auto;
+}
+.giua .tintuc .thongtin .trai{
+    height: 400px;
+    width: 50%;
+    background-color: aqua;
+}
+.giua .tintuc .thongtin .phai{
+    height: 400px;
+    width: 50%;
+    background-color: pink;
+}
+
+
 
