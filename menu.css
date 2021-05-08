@@ -5,24 +5,29 @@
 }
 .menutren {
     width: 100%;
-    height: 52px;
+    height: 700px;
     background-color: black;
+    position: relative;
 }
 .menutren > ul {
-    height: 100%;
+    height: 52px;
     justify-content: space-between;
     width: 1100px;
-    display: flex;
+    
     list-style: none;
     margin: auto;
     text-align: center;
-    
 }
 
 .menutren ul li{
     margin: auto;
+    display: inline;
+    position: relative;
 }
-
+.menutren .mysilde{
+    position: absolute;
+    z-index: 1;
+}
 .menutren ul li a{
     position: relative;
     text-decoration: none;
@@ -59,15 +64,16 @@
 }
 
 ._1item {
-    position: relative;
     height: 52px;
     line-height: 52px;
-    
-    
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    transition: 0.1s;
 }
 
 
-._1item .layer2{
+._1item > .layer2{
     left: -10px;
     width: 250px;
     background: rgb(37, 37, 37);
@@ -76,7 +82,8 @@
     text-align: left;
     visibility: hidden; 
     opacity: 0;
-    
+    z-index: 2;
+    top: 37px;
 }
 ._1item:hover .layer2{
    visibility:visible;
@@ -87,7 +94,7 @@
     list-style: none;
 }
 ._1item .layer2 li a {
-    position: relative;
+    line-height: 52px;
     margin-left: 10px;
     display: inline-block;
     width: 230px;
@@ -101,11 +108,11 @@
     top: 20px;
 }
 
-.layercon {
+._1item .layer2 .layercon {
     width: 250px;
     background: rgb(37, 37, 37);
     position: absolute;
-    margin-top: -52px;
+    margin-top: -53px;
     left: 250px;
     transition: 0.2s;
     text-align: left;
@@ -117,3 +124,5 @@
     visibility: visible; 
     opacity: 1;
 }
+.layercon li{}
+.layercon li a{}

@@ -1,8 +1,8 @@
 .myslide{
-    margin-top: 500px;
+    
     height: 600px;
 }
 .myslide img{
     width: 100%;
-    height: 650px;
+    height: 100%;
 }
