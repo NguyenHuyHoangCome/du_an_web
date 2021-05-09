@@ -223,20 +223,28 @@
     
 }
 .giua .tintuc{
-    height: 450px;
+    height: 600px;
 }
 .giua .tintuc .tieude{
     width: 200px;
     height:30px;
     margin-left: 280px;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
-.giua .tintuc .tieude h5{
+.giua .tintuc .tieude a{
+    font-weight: 500;
     font-size: 20px;
     display:block;
-    
+    color: black;
+    text-decoration: none;
 }
+.giua .tintuc .tieude a:hover{
+    text-decoration: none;
+    color: red;
+}
+
 .giua .tintuc .thongtin{
     display: flex;
     width: 1280px;
@@ -244,15 +252,114 @@
     margin: auto;
 }
 .giua .tintuc .thongtin .trai{
-    height: 400px;
+    height: 450px;
     width: 50%;
-    background-color: aqua;
+    
+    
 }
 .giua .tintuc .thongtin .phai{
-    height: 400px;
+    height: 450px;
     width: 50%;
-    background-color: pink;
+    
 }
+.giua .tintuc .thongtin .trai .anh{
+    width: 609px;
+    height: 256px;
+    margin-bottom: 15px;
+}
+.giua .tintuc .thongtin .trai .anh img{
+    width: 100%;
+    height: 100%;
+    
+}
+.giua .tintuc .thongtin .trai .ten a{
+    text-transform: uppercase;
+    color: black;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.giua .tintuc .thongtin .trai .ten a:hover{
+    color: red;
+    text-decoration: none;
+
+}
+.giua .tintuc .thongtin .trai .thongtin i{
+    display: block;
+    margin-right:15px ;
+    color: #7c7a7a;
+    font-weight: 300;
+    margin-top: 4px;
+
+  
+
+}
+.giua .tintuc .thongtin .trai .thongtin{
+    height: 30px;
+}
+.giua .tintuc .thongtin .trai .thongtin p{
+    display: block;
+    margin-right:20px ;
+    color: #7c7a7a;
+    font-weight: 300;
+    margin-top: 0px;
+}
+.giua .tintuc .thongtin .trai .tex p{
+    display: block;
+    margin-right: 29px;
+    margin-top: 10px;
+}
+.giua .tintuc .thongtin .phai .trangbao{
+    display: flex;
+    width: 680px;
+    height: 150px;
+    margin-bottom: 30px;
+    
+}
+.giua .tintuc .thongtin .phai .trangbao .anh{
+    width: 180px;
+    
+}
+.giua .tintuc .thongtin .phai .trangbao .anh img{
+    width: 100%;
+    height: 125px;
+}
+.giua .tintuc .thongtin .phai .trangbao .tex{
+    height: 150px;
+    
+    width: 450px;
+    margin-left: 20px;
+}
+.giua .tintuc .thongtin .phai .trangbao .tex .thongtin{
+    height: 30px;
+    margin-top: 10px;
+    color: #7c7a7a;
+}
+.giua .tintuc .thongtin .phai .trangbao .tex .ten a{
+    color: black;
+    text-transform: uppercase;
+}
+.giua .tintuc .thongtin .phai .trangbao .tex .ten a:hover{
+    text-decoration: none;
+    color: red;
+}
+.giua .tintuc .thongtin .phai .trangbao .tex .thongtin i{
+    margin-right: 10px;
+    margin-top: 4px;
+}
+.giua .tintuc .thongtin .phai .trangbao .tex .thongtin p{
+    display: block;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
