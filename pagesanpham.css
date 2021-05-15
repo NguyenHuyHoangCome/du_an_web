@@ -1,20 +1,22 @@
 * {margin: 0;padding: 0;}
 
-.p2anhduoimenu {
-
-    position: absolute;
-    width: 100%;
-    height: 600px;
-    z-index: 2;
-    background: chartreuse;
-
+.contentpagesanpham {
+    width: 1175px;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    margin: auto;
 }
-.p2anhduoimenu img{
-    width: 100%;
-    height: 135px;
+.contentpagesanpham .trai{
+    width: 300px;
+    background-color: thistle;
 
 }
-.p2anhduoimenu a{
-    
+.contentpagesanpham .phai{
+    width: 860px;
+    background-color: teal;
 }
-.p2anhduoimenu p{}
+.contentpagesanpham .trai .danhmuc{
+   margin-top: 20px;
+
+}

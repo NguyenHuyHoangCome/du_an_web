@@ -60,7 +60,7 @@ width: 60%;
     text-decoration: none;
     margin-top: 30px;
     color:black;
-    
+    font-family: segoe ui;
 }
 .divdau .daubo .chu a:hover {
     color: red;
