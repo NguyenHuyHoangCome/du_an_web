@@ -1,0 +1,18 @@
+.tintuc12{
+    
+
+}
+.tintuc12 .thongtin{
+    display: flex;
+    width: 1200px;
+    background-color: blue;
+    margin: auto;
+    margin-top: ;
+}
+.tintuc12 .thongtin .trai{
+    background-color: aquamarine;
+    
+    width: 80%;
+    height: 1000px;
+}
+.tintuc12 .thongtin .phai{}
