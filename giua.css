@@ -9,7 +9,7 @@
 .camket{
     
     height: 169px;
-    background-color: #ffffff;
+    background-color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
@@ -351,6 +351,111 @@
     display: block;
     margin-right: 20px;
 }
+.giua .dieukhoan {
+    height: 400px;
+   
+}
+
+.giua .dieukhoan .trungtam{
+    width: 1240px;
+    height: 350px;
+    margin-left: 275px;
+    margin-top: 10px;
+    
+    display: flex;
+}
+.giua .dieukhoan .trungtam .trai{
+    width: 50%;
+    
+}
+.giua .dieukhoan .trungtam .phai{
+    width: 50%;
+    
+}
+.giua .dieukhoan .trungtam .phai img{
+    width: 100%;
+}
+.giua .dieukhoan .trungtam .trai .textren{
+    height: 70px;
+    display: flex;
+    width: 600px;
+    border-bottom: 2px solid #ccc;
+}
+.giua .dieukhoan .trungtam .trai .texduoi{
+
+    height: 300px;
+}
+.giua .dieukhoan .trungtam .trai .texduoi .k{
+    width: 600px;
+    height: 100%;
+    
+}
+.giua .dieukhoan .trungtam .trai .textren div{
+    
+    margin-right: 40px;
+    height: 45px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: block;
+    
+    
+}
+.giua .dieukhoan .trungtam .trai .textren div:hover{
+
+    border-bottom: 2px solid rgb(250, 7, 7);
+}
+.giua .dieukhoan .trungtam .trai .textren div:focus{
+
+    border-bottom: 2px solid rgb(250, 7, 7);
+}
+
+.giua .dieukhoan .trungtam .trai .textren div a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    
+    
+}
+.giua .dieukhoan .trungtam .trai .textren div a:hover{
+    color: red;
+    
+}
+.giua .dieukhoan .trungtam .trai .textren div a:focus{
+    color: red;
+}
+.giua .anhsp{
+    height: 520px;
+    
+}
+.giua .anhsp .hi{
+    width: 1245px;
+    height: 500px;
+   
+    margin-left: 270px;
+}
+.giua .anhsp .hi .trai{
+    height: 80px;
+    
+}
+.giua .anhsp .hi .trai h5{
+    width: 210px;
+    padding-top: 20px;
+}
+.giua .anhsp .hi .trai h5:hover{
+    color: red;
+}
+.giua .anhsp .hi .phai{
+    background-color: #7c7a7a;
+    height: 500px;
+}
+
+
+
+
+
+
+
 
 
 
