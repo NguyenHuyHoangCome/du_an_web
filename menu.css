@@ -47,7 +47,7 @@
 .menutren ul li a::before{
     content: '';
     position: absolute;
-    bottom: 0;
+    bottom: 1px;
     left: 50%;
     width: 0%;
     height: 2px;
@@ -84,7 +84,7 @@
     visibility: hidden; 
     opacity: 0;
     z-index: 2;
-    top: 37px;
+    top: 35px;
 }
 ._1item:hover .layer2{
    visibility:visible;
