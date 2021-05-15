@@ -10,11 +10,11 @@
 }
 .contentpagesanpham .trai{
     width: 300px;
-   
 
 }
 .contentpagesanpham .phai{
     width: 860px;
+    z-index: 0;
     
 }
 .contentpagesanpham .trai .danhmuc{
