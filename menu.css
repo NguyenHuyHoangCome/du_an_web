@@ -6,7 +6,8 @@
 .menutren {
     width: 100%;
 
-    background-color: black;
+    background-color: rgb(17, 17, 17);
+    
     position: relative;
 }
 .menutren > ul {
