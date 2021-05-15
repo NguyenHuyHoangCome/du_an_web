@@ -224,6 +224,7 @@
 }
 .giua .tintuc{
     height: 600px;
+    
 }
 .giua .tintuc .tieude{
     width: 200px;
@@ -447,8 +448,11 @@
     color: red;
 }
 .giua .anhsp .hi .phai{
-    background-color: #7c7a7a;
+    
     height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 
