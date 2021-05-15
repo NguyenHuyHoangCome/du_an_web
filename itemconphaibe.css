@@ -24,14 +24,14 @@
 .itemconbephai .divconphai a >span{
     font-size: 20px;
     font-family: segoe ui;
-    line-height: 40px;
+    line-height: 30px;
 }
 .itemconbephai .divconphai a >span:hover{
     color: red;
 }
 .itemconbephai > h3{
     color: rgb(226, 177, 85);
-    margin-top: 25px;
+    margin-top: 30px;
 }
 .itemconbephai a >img.anhconbe {
     width: 100%;
