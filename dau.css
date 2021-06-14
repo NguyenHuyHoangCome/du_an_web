@@ -2,23 +2,31 @@
 .divdau {
     width: 100%;
     height: 128px;
-
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.daudoi{
+    background-color: rgba(151, 16, 16, 0.7);
+    height: 70px;
+    transition: 0.3s;
     
 }
 .divdau .daubo{
     display: flex;
-    
-    
-    
     margin: auto;
     width: 1100px;
     height: 100%;
    
 }
+.nhohon{
+    color: white;
+}
 .divdau .daubo .anh {
     width: 20%;
 }
-.divdau .daubo img{
+.divdau .daubo img.anhbt{
     width: 60%;
    transform: scale(0.7);
 }
@@ -55,12 +63,13 @@
     width: 20%;
     
 }
-.divdau .daubo .chu a {
+.divdau .daubo .chu a.adau {
     display: block;
     text-decoration: none;
     margin-top: 30px;
-    color:black;
+    color: black;
     font-family: segoe ui;
+
 }
 .divdau .daubo .chu a:hover {
     color: red;

@@ -5,16 +5,16 @@
 }
 .menutren {
     width: 100%;
-
+    
     background-color: rgb(17, 17, 17);
     
-    position: relative;
+    margin-top: 128px;
 }
 .menutren > ul {
     height: 52px;
     justify-content: space-between;
     width: 1100px;
-    
+    position: relative;
     list-style: none;
     margin: auto;
     text-align: center;
