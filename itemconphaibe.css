@@ -165,26 +165,90 @@
     margin-left: 2%;
     margin-right: 2%;
 }
-.popup .popcontrai .divcontraitren{
-   
-    height: 80%;
-    width: 90%;
-    margin: auto;
+.wraper {
     margin-top: 20px;
-    
-    border: solid 1px #ebebeb;
+    width: 100%;
+    height: 100%;
 }
-.popup .popcontrai .divcontraitren .divcontraitren_img1{
+.slide {
+    width: 100%;
+    height: 78%;
+    position: relative;
+    border: solid #ebebeb 1px;
+    margin-bottom: 2%;
+
+}
+.slide img{
+    
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+ 
+.slide_1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    z-index: 1;
+}
+.slide_2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    z-index: 2;
+    opacity: 0;
+}
+.slide_3 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    z-index: 3;
+    opacity: 0;
+}
+.slide_4 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    z-index: 4;
+    opacity: 0;
+}
+.nut {
+    width: 100%;
+    height: 20%;
+   
+   
+}
+.nut ul {
+    
     height: 100%;
     width: 100%;
+    justify-content: space-between;
+    display: flex;
 }
-.popup .popcontrai .divcontraiduoi{
-    height: 20%;
-    width: 90%;
+.nut ul li {
     
-    margin: auto;
-    margin-top: 20px;
-    border: solid 1px #ebebeb;
+    height: 100%;
+    width: 20%;
+    border: solid #ebebeb 1px;
+    list-style: none;
+    cursor: pointer;
+}
+.nut ul li img{
+    width: 100%;
+    height: 100%;
+}
+ 
+.nut ul li:hover {
+   border: red 1px solid;
+}
+.ra{
+    
+    transition: 0.4s;
+    opacity: 1;
 }
 
 
