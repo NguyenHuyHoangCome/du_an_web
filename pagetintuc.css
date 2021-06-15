@@ -4,9 +4,10 @@
 }
 .tintuc12 .thongtin{
     display: flex;
-    width: 350px;
+    width: 1100px;
     font-family: segoe ui;
-    margin-left: 300px;
+    margin: auto;
+    height:1300px;
     margin-top: 40px;
 }
 .tintuc12 .thongtin .trai{
