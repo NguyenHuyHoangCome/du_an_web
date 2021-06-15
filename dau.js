@@ -8,22 +8,22 @@ document.addEventListener("DOMContentLoaded",function() {
 
 
 
-        var trangthai="duoi300";
+        var trangthai="duoi128";
     window.addEventListener("scroll",function(){
         var x = pageYOffset;
         if(x > 128){
-            if(trangthai == "duoi300")
+            if(trangthai == "duoi128")
             {
-                trangthai="tren300";
+                trangthai="tren128";
                 menu.classList.add('daudoi');
                 chu[0].classList.toggle('nhohon');
             }
         }
         else{
-            if(trangthai=="tren300"){
+            if(trangthai=="tren128"){
             menu.classList.remove('daudoi');
             chu[0].classList.remove('nhohon');
-            trangthai="duoi300";}
+            trangthai="duoi128";}
         }
     
     })
